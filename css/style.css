@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: palevioletred;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    padding: 0 20px ;
+}
+.tarjetita {
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+.tarjetita-cabezita {
+    border-right: 1px solid #ddd;
+    
+}
+.tarjeta-body {
+    background: #fbfbfb;
+    position: relative;
+}
+.tarjeta-body, .tarjetita-cabezita {
+    padding: 20px;
+    text-align: center;
+
+}
+
+    
+#lol {
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgb(0, 0, 0, .1);
+    margin: 20px 30px;
+    transition: .2s;
+}
+
+.titulo {
+    color: red;
+    font-weight: bold;
+}
+.tarjetita-cabezita h4 {
+    margin-bottom: 20px;
+}
+.tarjeta-body p{
+    margin: 20px 30px;
+}
+.tarjetita-body .icono { 
+    margin-top: 25px;
+}
+.tarjetita-body .icono img {
+ display: inline-block;
+ padding: 0 15px;
+ color: red;
+}
+@media (max-width:640px) {
+    .tarjetita {
+        display: block;
+        width: 450px;
+    }
+    .tarjetita-cabezita {
+        padding: 20px 20px 5px 20px;
+        border: none;
+    
+    }
+    .tarjeta-body{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+    .tarjetita-cabezita {
+        margin: 0;
+    }
+}
+.tarjetita-cabezita {
+    border-right: 1px solid black;
+}
+.tarjetita-body {
+    margin: 0 auto;
+    width: fit-content;
+}
+.tarjeta-body p {
+    font-size: 1.20rem;
+}
+#icons2 {
+    width: 20px;
+    margin: 0 10px;
+    height: 20px;
+    color: red;
+}
